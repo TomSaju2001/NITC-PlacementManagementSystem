@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  background-color: #0078AA;
+}
+
+.navbar-brand{
+    position: relative;
+    background: url(../images/logo.png);
+    width: 130px;
+    max-height: 100px; /* height of the navbar */
+}
