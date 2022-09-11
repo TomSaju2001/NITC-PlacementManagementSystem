@@ -129,7 +129,7 @@
           </button>
         </div>
         <div class="modal-body">
-            <embed src="/assets/docs/akhil_cv.pdf"
+            <embed src="./assets/docs/akhil_cv.pdf"
             frameborder="0" width="100%" height="600">
         </div>
         <div class="modal-footer">
@@ -158,7 +158,7 @@
                 var cvName = {"Akhil Sarwar T H": "akhil_cv.pdf", "Tom Saju": "tom_cv.pdf", "Abbad Maliyekkal": "abbad_cv.pdf", "Nishant Kumar Bhardwaj": "nishant_cv.pdf"};
                 var name=$(this).attr("id");
                 // console.log($(this).html());  
-                $("#cvModal").find("embed").attr("src", "/assets/docs/" + cvName[name]);
+                $("#cvModal").find("embed").attr("src", "./assets/docs/" + cvName[name]);
                 $("#cvModal").modal("show");
             })
         })
