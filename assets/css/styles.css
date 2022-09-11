@@ -12,6 +12,8 @@ h2, h3, h4, h5, h6{
   font-weight: 600;
 }
 
+a { color: inherit; }
+
 .container-fluid {
   padding: 1% 4% 1%;
 }
@@ -24,6 +26,7 @@ h2, h3, h4, h5, h6{
 }
 
 .navBarTitle{
+  font-weight: 600;
   padding-left: 5%;
 }
 
@@ -42,4 +45,29 @@ h2, h3, h4, h5, h6{
 .membersTable{
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 6%;
+}
+
+
+/* Resources Page */
+.resourcesTitle{
+  padding-top: 20%;
+  padding-bottom: 16%;
+}
+
+
+/* Contact page */
+.contactTitle{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+/* Footer */
+.footerItem{
+  padding-right: 6%;
+}
+
+.footerDiv{
+  padding-top: 3%;
 }

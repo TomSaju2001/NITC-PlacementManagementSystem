@@ -20,6 +20,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome link -->
+  <script src="https://kit.fontawesome.com/f318b3c62c.js" crossorigin="anonymous"></script>
 
   <!-- CSS-->
   <link rel="stylesheet" href="assets\css\styles.css">
@@ -27,7 +29,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+  <nav class="navbar  navbar-expand-lg navbar-light bg-light container-fluid">
     <a class="navbar-brand" href="#">
       <img src="assets\images\nitc_logo.png" width="50" height="50" class="navbar-image d-inline-block align-middle" alt="">
       <span class="navBarTitle">Placements, NIT Calicut</span>
@@ -42,7 +44,7 @@
           <a class="nav-link" href="./index.html">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="./members.html">Members</a>
+          <a class="nav-link" href="./members.html"><i class="fa-solid fa-people-group"></i>  Members</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./resources.html">Resources</a>
@@ -83,7 +85,7 @@
           <td>B191290CS</td>
           <td><button id="Tom Saju" type="button" class="btn btn-primary openDialogButton">
               Open CV
-            </button></td></td>
+            </button></td>
         </tr>
         <tr>
           <th scope="row">3</th>
@@ -91,7 +93,7 @@
           <td>B190427CS</td>
           <td><button id="Nishant Kumar Bhardwaj" type="button" class="btn btn-primary openDialogButton">
               Open CV
-            </button></td></td>
+            </button></td>
         </tr>
         <tr>
           <th scope="row">4</th>
@@ -99,17 +101,13 @@
           <td>B190372CS</td>
           <td><button id="Abbad Maliyekkal" type="button" class="btn btn-primary openDialogButton">
               Open CV
-            </button></td></td>
+            </button></td>
         </tr>
       </tbody>
     </table>
   </div>
 
-
-
   <!-- Button trigger modal -->
-
-
   <!-- Modal -->
   <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -132,10 +130,26 @@
   </div>
 
   <!--Footer Section-->
-  <!-- <footer>
-    <p>Author: Team 3 | Web Programming</p>
-    <p><a href="https://github.com/TomSaju2001/NITC-PlacementManagementSystem">Source Code</a></p>
-  </footer> -->
+  <div class="footerDiv">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="https://getbootstrap.com/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">Team 3: Web Programming</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3 mb-md-0 footerItem"><a href="./members.html"><i class="fa-solid fa-people-group"> </i></a></li>
+      <li class="ms-3 mb-md-0 footerItem"><a href="./contacts.html"><i class="fa-sharp fa-solid fa-address-card"></i></i></a></li>
+      <li class="ms-3 mb-md-0 footerItem">
+        <a href="https://github.com/TomSaju2001" target="_blank">
+            <i class="fa-brands fa-square-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
 
   <!--JS links from bootstrap 4 site-->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
