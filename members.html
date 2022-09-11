@@ -31,45 +31,37 @@
 </head>
 
 <body>
-  <!--Navigation Bar-->
-  <!-- <section>
-    <div class="">
-      <nav class="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets\images\National_Institute_of_Technology,_Calicut_Logo.png" alt="NITC-Logo"  height="24" class="d-inline-block align-text-top">
-            Placements, NIT Calicut
-          </a>
-        </div>
-      </nav>
-    </div>
-  </section> -->
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#" >
-        <img src="assets\images\National_Institute_of_Technology,_Calicut_Logo.png" alt="NITC-Logo" class="d-inline-block align-top" height="30"><span style="padding: 10px 10px" >Placements, NIT Calicut</span></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="assets\images\nitc_logo.png" width="50" height="50" class="navbar-image d-inline-block align-middle" alt="">
+      <span class="navBarTitle">Placements, NIT Calicut</span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./members.html">Members </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./resources.html">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacts.html">Contacts</a>
-          </li>
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./members.html">Members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacts.html">Contacts</a>
+        </li>
       </ul>
     </div>
   </nav>
 
   <table class="table table-striped">
+    <div class="container">
+
+    </div>
     <thead class="thead-dark">
       <tr>
         <th scope="col">#</th>
@@ -113,11 +105,11 @@
       </tr>
     </tbody>
   </table>
-  
+
 
   <!-- Button trigger modal -->
 
-  
+
   <!-- Modal -->
   <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -157,12 +149,11 @@
             $(".openDialogButton").click(function (){
                 var cvName = {"Akhil Sarwar T H": "akhil_cv.pdf", "Tom Saju": "tom_cv.pdf", "Abbad Maliyekkal": "abbad_cv.pdf", "Nishant Kumar Bhardwaj": "nishant_cv.pdf"};
                 var name=$(this).attr("id");
-                // console.log($(this).html());  
+                // console.log($(this).html());
                 $("#cvModal").find("embed").attr("src", "./assets/docs/" + cvName[name]);
                 $("#cvModal").modal("show");
             })
         })
     </script>
     </body>
-
 </html>
