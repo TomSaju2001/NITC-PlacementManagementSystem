@@ -1,4 +1,4 @@
-# NITC-PlacementManagementSystem
+# NITC-Placement Management System
 ### A website made as part of Web Programming Course Assignment 1.
 
 
