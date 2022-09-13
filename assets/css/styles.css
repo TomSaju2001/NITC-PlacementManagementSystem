@@ -31,7 +31,7 @@ a { color: inherit; }
 .titleMainDiv{
   position: absolute;
   top: 20%;
-  left: 7%;
+  left: 10%;
   color: white;
 }
 
@@ -76,3 +76,9 @@ a { color: inherit; }
 a[role="button"] {
   border-radius: 20px;
 }
+
+
+.wallpaper-frame {
+  height: 600px ;
+}
+
