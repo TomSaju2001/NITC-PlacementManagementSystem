@@ -6,7 +6,7 @@
 &nbsp;
 <div align="center">
 <a href="https://tomsaju2001.github.io/NITC-PlacementManagementSystem/" target="_blank">
-  Visit Website - 1
+  <h2>Visit Website - 1</h2>
 </a>
 <br/>
 <a href="https://akhilsarwar.github.io/NITC-PlacementManagementSystem/" target="_blank">
